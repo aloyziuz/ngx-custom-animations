@@ -1,0 +1,14 @@
+{
+  "name": "ngx-custom-animations",
+  "version": "1.0.0",
+  "description": "collection of angular animations",
+  "main": "public-api.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^13.3.12"
+  }
+}
