@@ -26,7 +26,7 @@ export const slideOutToTop = animation([
 export const slideInFromLeft = animation([
     style({ opacity: 0, transform: 'translateX(-200px)' }),
     animate(
-        '300ms ease-in',
+        '{{time}} ease-in',
         style({ opacity: 1, transform: 'translateX(0)' })
     )
 ]);
@@ -35,7 +35,7 @@ export const slideInFromLeft = animation([
 export const slideOutToLeft = animation([
     style({ opacity: 1, transform: 'translateX(0)' }),
     animate(
-        '300ms ease-in',
+        '{{time}} ease-in',
         style({ opacity: 0, transform: 'translateX(-200px)' })
     ),
 ]);
@@ -43,7 +43,7 @@ export const slideOutToLeft = animation([
 export const slideInFromRight = animation([
     style({ opacity: 0, transform: 'translateX(200px)' }),
     animate(
-        '300ms ease-in',
+        '{{time}} ease-in',
         style({ opacity: 1, transform: 'translateX(0)' })
     )
 ]);
@@ -51,7 +51,7 @@ export const slideInFromRight = animation([
 export const slideOutToRight = animation([
     style({ opacity: 1, transform: 'translateX(0)' }),
     animate(
-        '300ms ease-in',
+        '{{time}} ease-in',
         style({ opacity: 0, transform: 'translateX(200px)' })
     )
 ])
