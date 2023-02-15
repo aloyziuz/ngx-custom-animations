@@ -1,4 +1,5 @@
-import { animation, style, animate } from "@angular/animations";
+import { animation, style, animate, sequence } from "@angular/animations";
+
 
 export const slideInFromTop = animation([
     style({
@@ -54,4 +55,5 @@ export const slideOutToRight = animation([
         '{{time}} ease-in',
         style({ opacity: 0, transform: 'translateX(200px)' })
     )
-])
+]);
+
