@@ -1,6 +1,6 @@
 {
   "name": "@aloysius-software-factory/ngx-custom-animations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "collection of angular animations",
   "main": "index.js",
   "files": [
