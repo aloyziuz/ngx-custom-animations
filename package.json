@@ -1,13 +1,22 @@
 {
-  "name": "ngx-custom-animations",
+  "name": "@aloysius-software-factory/ngx-custom-animations",
   "version": "1.0.0",
   "description": "collection of angular animations",
   "main": "index.js",
+  "files": ["*.d.ts", "*.js"],
+  "types": "*.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build": "tsc && copy package.json dist",
+    "publish-npm": "npm run build && cd dist && npm publish --access public"
   },
-  "author": "",
+  "author": "Aloysius",
   "license": "ISC",
+  "homepage": "https://github.com/aloyziuz/ngx-custom-animations",
+  "bugs": {
+    "url": "https://github.com/aloyziuz/ngx-custom-animations/issues"
+  },
+  "repository": "git+https://github.com/aloyziuz/ngx-custom-animations.git",
   "peerDependencies": {
     "@angular/animations": "^13.3.12"
   }
